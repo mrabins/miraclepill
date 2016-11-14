@@ -91,7 +91,7 @@
                                 <color key="textColor" red="0.1058823529" green="0.1058823529" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="STATE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLJ-9E-VUQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="STATE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLJ-9E-VUQ">
                                 <rect key="frame" x="20" y="431" width="335" height="14.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.1058823529" green="0.1058823529" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
@@ -106,7 +106,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Bl-gs-Ior">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Bl-gs-Ior">
                                 <rect key="frame" x="20" y="449" width="154" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="153" id="39a-Dv-7g2"/>
@@ -154,7 +154,9 @@
                             <constraint firstItem="CLJ-9E-VUQ" firstAttribute="top" secondItem="IY9-gU-jrb" secondAttribute="bottom" constant="8" id="aAe-mi-lUe"/>
                             <constraint firstItem="VRJ-R7-62j" firstAttribute="top" secondItem="xtA-m2-Nph" secondAttribute="bottom" constant="8" id="anI-SN-JQu"/>
                             <constraint firstItem="IY9-gU-jrb" firstAttribute="top" secondItem="VRJ-R7-62j" secondAttribute="bottom" constant="8" id="cs0-Ot-5Tg"/>
+                            <constraint firstItem="3Bl-gs-Ior" firstAttribute="leading" secondItem="CLJ-9E-VUQ" secondAttribute="leading" id="e6h-Kh-G07"/>
                             <constraint firstItem="Wgd-gV-Xsq" firstAttribute="top" secondItem="ozk-WN-3Cu" secondAttribute="bottom" constant="8" id="f2d-Zf-DP4"/>
+                            <constraint firstItem="CLJ-9E-VUQ" firstAttribute="leading" secondItem="IY9-gU-jrb" secondAttribute="leading" id="fae-oU-Wbf"/>
                             <constraint firstItem="NEc-BA-wgE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fsC-QJ-BTQ"/>
                             <constraint firstItem="IY9-gU-jrb" firstAttribute="top" secondItem="VRJ-R7-62j" secondAttribute="bottom" constant="8" id="gxR-rW-L9k"/>
                             <constraint firstItem="ozk-WN-3Cu" firstAttribute="top" secondItem="7ya-Qv-LEs" secondAttribute="bottom" constant="20" id="kKt-Xf-cv6"/>
